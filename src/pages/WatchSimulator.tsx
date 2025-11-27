@@ -130,12 +130,12 @@ export default function WatchSimulator() {
 
   return (
     <div className="min-h-screen bg-watch-bg text-watch-text flex items-center justify-center p-4">
-      <div className="relative w-full max-w-sm aspect-square">
+      <div className="relative w-full max-w-md aspect-square mx-auto">
         {/* Progress Ring */}
         <ProgressRing progress={progress} />
 
         {/* Main Content */}
-        <div className="absolute inset-8 flex flex-col items-center justify-center space-y-6">
+        <div className="absolute inset-12 flex flex-col items-center justify-center space-y-6">
           {!isActive ? (
             <div className="text-center space-y-6">
               <h1 className="text-2xl font-bold">HandWash Monitor</h1>
